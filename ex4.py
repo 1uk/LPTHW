@@ -1,6 +1,6 @@
 # defining the number of cars
 cars = 100
-# defingin the space in a car
+# defining the space in a car
 space_in_a_car = 4.0
 # defining the number of drivers
 drivers = 30
