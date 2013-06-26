@@ -1,0 +1,3 @@
+lala \n endline
+line 2
+last (third) line
