@@ -69,7 +69,7 @@ def ghost_room():
     elif "fight" in next or "ghost" in next or "yes" in next or "man" in next:
         trapdoor()
     else:
-        ghost_room()
+        print "I got no idea what that means."
 
 def trapdoor():
     print "A trapdoor opens under you, you fall down into another room"
