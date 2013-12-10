@@ -1,0 +1,83 @@
+symbol review
+
+Keywords
+------------------------------
+and         used in if statements
+del
+from        from module import ?object?
+not         logical not
+while       while loop
+as
+elif        if elif else
+global      global variable
+or          logical or
+with
+assert
+else        if elif else
+pass
+yield
+break
+except
+import      from module import ?object?
+print       ?function?
+class       you can define classes, they have objects, e.g. arrays, or cars
+exec
+in
+raise       ?increment operator?
+continue
+finally
+is          ?locical is??if x is y?
+return      functions can return something
+def         you can define functions with def function(arg1, arg2):
+for         for loop
+lambda
+try
+
+Data Types
+------------------------------
+True        boolean
+False       boolean
+None
+strings     "Hi !" 'Hi !' """ How are you doin" ? """
+numbers     ?3, 4, 1 0, -1, 9999, 2000, -2314245325432643?
+floats      3.14159265358979323646264, 1.111, 2.423, -0.25, 999999999.0003, 0.0, 1.0, -8.0
+lists       ?array = 1, 4, 6? ?things[5]?
+
+String Escape Sequences
+------------------------------
+\\          "\\" -> \
+\'          '\'' -> '
+\"          "\"" -> "
+\a
+\b
+\f
+\n          newline
+\r
+\t          tab
+\v          ?vertical...?
+
+String Formats
+------------------------------
+%d
+%i
+%o
+%u
+%x
+%X
+%e
+%E
+%f
+%F
+%g
+%G
+%c
+%r
+%s
+%%
+
+Operators
+------------------------------
++           plust
+-           minus
+*
+**
