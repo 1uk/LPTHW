@@ -2,9 +2,9 @@ symbol review
 
 Keywords
 ------------------------------
-and         used in if statements
-del
-from        from module import ?object?
+and
+del         delete things from dictionarys
+from        from module import method
 not         logical not
 while       while loop
 as
@@ -22,11 +22,11 @@ import      from module import ?object?
 print       ?function?
 class       you can define classes, they have objects, e.g. arrays, or cars
 exec
-in
+in          if "hello" in string
 raise       ?increment operator?
 continue
 finally
-is          ?locical is??if x is y?
+is          ?if they are pointing to the same adress?
 return      functions can return something
 def         you can define functions with def function(arg1, arg2):
 for         for loop
@@ -58,26 +58,52 @@ String Escape Sequences
 
 String Formats
 ------------------------------
-%d
-%i
-%o
+%d          integer
+%i          integer
+%o          ?octal?
 %u
 %x
 %X
 %e
 %E
-%f
+%f          float
 %F
 %g
 %G
 %c
 %r
-%s
+%s          string
 %%
 
 Operators
 ------------------------------
-+           plust
--           minus
-*
-**
++           operator.add(a, b)
+-           operator.sub(a, b)
+*           operator.mul(a, b)
+**          operator.pow(a, b)
+/           operator.div(a, b)
+//          operator.floordiv(a, b) (5/ 2.0 = 2.0)
+%           modulo
+<           less than
+>           greater than
+<=          less than or equal
+>=          greater than or equal
+==          is equal
+!=          is not equal
+<>          is not equal
+( )         parentheses: function(), tuples: x = (1,2)
+[ ]         brackets: lists: x = [1, 2]
+{ }         braces: dicionarys: x = {'a': 1,'b': 2}
+@           something for decorators (something with classes)
+,           separate things a, b = 1, 2
+:           if x<5:, def function():
+.           module.method(), object.method()
+=           assignment operator
+;           separate several statements on the same line print x; print y
++=          ex: a=a+ 5
+-=          ex: a=a- 5
+*=          ex: a=a* 5
+/=          ex: a=a/ 5
+//=         ex: a=a// 5
+%=          ex: a=a% 5
+**=         ex: a=a** 5
